@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "noImplicitThis": true,
+    "module": "es6",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "outDir": "./build",
+    "lib":["ES2016","DOM","DOM.Iterable"],
+    "target": "es6"
+  },
+  "include": ["src/**/*","./typings/axios.d.ts"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}
